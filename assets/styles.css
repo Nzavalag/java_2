@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.alineacion-centro{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.alineacion-btn{
+    padding-bottom: 10px;
+}
+div>button{
+    margin: 10px;
+}
+.borde{
+    padding: 10px;
+    border:black solid 2px;
+}
+.cls-ancho-input{
+    width:100px;
+}
+.titulo-pass{
+    padding:20px;
+}

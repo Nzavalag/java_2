@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 2 Javascript</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+    <section>
+        <div class="alineacion-centro">
+            <img id="img_border" src="./assets/img/logo.jpg" alt="" width="200px" height="200px">
+
+        </div>
+    </section>
+    <section>
+        <div class="alineacion-centro">
+            <div class="icono">
+                <img src="./assets/img/icono 1.png" alt="" width="100px" height="100px">
+                <input type="text" id="id01" maxlength="2"/>
+            </div>
+            <div class="icono">
+                <img src="./assets/img/icono 2.svg" alt="" width="100px" height="100px">
+                <input type="text" id="id02" maxlength="2"/>
+            </div class>
+            <div class="icono">
+                <img src="./assets/img/logo 3.webp" alt="" width="100px" height="100px">
+                <input type="text" id="id03" maxlength="2"/>
+            </div>
+        </div>
+        <div class="alineacion-centro">
+            <p><span id="idMensaje">Lleva 0 Stickers</span></p>
+        </div>
+        <div class="alineacion-centro .alineacion-btn">
+            <button onclick="fnCantidadStickers()">ingresar</button>
+        </div>
+    </section>
+    <section>
+        <div class="alineacion-centro">
+            <div class="icono .borde">
+                <div class="titulo-pass">
+                    <h4><strong>Ingresa el password</strong></h4>
+                </div>
+                <div>
+                    <select id="select01">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="0">0</option>
+                    </select>
+                    <select id="select02">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="0">0</option>
+                    </select>
+                    <select id="select03">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="0">0</option>
+                    </select>
+                </div>
+                <div class="alineacion-centro icono">
+                    <button onclick="fnValidaPassword()">ingresar</button>
+                    <p><span id="idMensajePassword"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/script.js"></script>
+
+</body>
+
+</html>
