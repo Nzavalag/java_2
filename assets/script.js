@@ -60,12 +60,12 @@ function fnConstruyePassword(){
 function fnValidaPassword(){
     Password = fnConstruyePassword();
     switch(Password) {
-        case "060":
+        case "911":
             {
                 mensajePassword.innerHTML = "Password 1 Correcto"; 
                 break;
             }
-        case "606":
+        case "714":
             {
                 mensajePassword.innerHTML = "Password 2 Correcto";;
                 break;
